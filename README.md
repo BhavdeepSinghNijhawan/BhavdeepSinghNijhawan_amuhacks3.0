@@ -18,6 +18,14 @@ False Negatives (FN): Instances that are incorrectly predicted as negative (Type
 
 A confusion matrix provides insight into the performance of a classification model, including metrics such as accuracy, precision, recall, and F1-score. It is particularly useful for evaluating the performance of binary classification models but can be extended to multi-class classification problems as well.
 
+### Scatter Plot
+
+![image](https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/8885e86f-92f3-4bd7-97ef-e2988a189ee8)
+
+### Confusion Matrix
+
+![image](https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/84751a93-cb06-4156-b60d-b1c162392d6d)
+
 ## TOOL
 
 - [MATLAB](https://matlab.mathworks.com/)
