@@ -6,25 +6,24 @@ A confusion matrix is a performance measurement tool used in machine learning an
 
 A confusion matrix typically has four cells, representing the following:
 
-True Positives (TP): The number of data points correctly classified as belonging to the positive class.
-True Negatives (TN): The number of data points correctly classified as belonging to the negative class.
-False Positives (FP): The number of data points incorrectly classified as belonging to the positive class (actually negative).
-False Negatives (FN): The number of data points incorrectly classified as belonging to the negative class (actually positive).
-
-True Positives (TP): Instances that are correctly predicted as positive.
-True Negatives (TN): Instances that are correctly predicted as negative.
-False Positives (FP): Instances that are incorrectly predicted as positive (Type I error).
-False Negatives (FN): Instances that are incorrectly predicted as negative (Type II error).
+- **True Positives (TP):** The number of data points correctly classified as belonging to the positive class. Instances that are correctly predicted as positive.
+- **True Negatives (TN):** The number of data points correctly classified as belonging to the negative class. Instances that are correctly predicted as negative.
+- **False Positives (FP):** The number of data points incorrectly classified as belonging to the positive class (actually negative). Instances that are incorrectly predicted as positive (Type I error).
+- **False Negatives (FN):** The number of data points incorrectly classified as belonging to the negative class (actually positive). Instances that are incorrectly predicted as negative (Type II error).
 
 A confusion matrix provides insight into the performance of a classification model, including metrics such as accuracy, precision, recall, and F1-score. It is particularly useful for evaluating the performance of binary classification models but can be extended to multi-class classification problems as well.
 
 ### Scatter Plot
 
-![image](https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/8885e86f-92f3-4bd7-97ef-e2988a189ee8)
+<p align="center">
+  <img src="https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/8885e86f-92f3-4bd7-97ef-e2988a189ee8" />
+</p>
 
 ### Confusion Matrix
 
-![image](https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/84751a93-cb06-4156-b60d-b1c162392d6d)
+<p align="center">
+  <img src="https://github.com/BhavdeepSinghNijhawan/MatrixVision/assets/143419096/84751a93-cb06-4156-b60d-b1c162392d6d" />
+</p>
 
 ## TOOL
 
