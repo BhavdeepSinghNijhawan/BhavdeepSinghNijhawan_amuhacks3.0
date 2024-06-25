@@ -74,12 +74,12 @@ aratioJ = range(J.Var3) / range(J.Var2);
 aratioV = range(V.Var3) / range(V.Var2);
 ```
 
-durM = M.Var1(end); - Assigns the last value of M.Var1 to durM.
-durJ = J.Var1(end); - Assigns the last value of J.Var1 to durJ.
-durV = V.Var1(end); - Assigns the last value of V.Var1 to durV.
-aratioM = range(M.Var3) / range(M.Var2); - Computes the aspect ratio of M.Var3 to M.Var2.
-aratioJ = range(J.Var3) / range(J.Var2); - Computes the aspect ratio of J.Var3 to J.Var2.
-aratioV = range(V.Var3) / range(V.Var2); - Computes the aspect ratio of V.Var3 to V.Var2.
+- **durM = M.Var1(end);:** Assigns the last value of M.Var1 to durM.
+- **durJ = J.Var1(end);:** Assigns the last value of J.Var1 to durJ.
+- **durV = V.Var1(end);:** Assigns the last value of V.Var1 to durV.
+- **aratioM = range(M.Var3) / range(M.Var2);:** Computes the aspect ratio of M.Var3 to M.Var2.
+- **aratioJ = range(J.Var3) / range(J.Var2);:** Computes the aspect ratio of J.Var3 to J.Var2.
+- **aratioV = range(V.Var3) / range(V.Var2);:** Computes the aspect ratio of V.Var3 to V.Var2.
 
 ```
 figure;
@@ -116,7 +116,7 @@ confusionchart(testdata.Var3, predictions);
 - **misclassrate = sum(~iscorrect) / numel(iscorrect);:** Calculates the misclassification rate.
 - **disp(['Accuracy: ', num2str(accuracy)]);:** Displays the accuracy.
 - **disp(['Misclassification Rate: ', num2str(misclassrate)]);:** Displays the misclassification rate.
-- **figure; - Opens another new figure window.
+- **figure;:** Opens another new figure window.
 - **confusionchart(testdata.Var3, predictions);:** Generates a confusion chart comparing the actual vs predicted classes.
 
 ## TOOL
